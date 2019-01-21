@@ -1,0 +1,199 @@
+Last login: Mon Jan 21 09:53:40 on console
+Jasons-MacBook-Air:~ jasongiles$ ssh jasonbgiles@hpc.arizona.edu
+Password: 
+Duo two-factor login for jasonbgiles
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to XXX-XXX-5549
+ 2. Phone call to XXX-XXX-5549
+ 3. SMS passcodes to XXX-XXX-5549
+
+Passcode or option (1-3): 1
+Success. Logging you in...
+Last login: Sun Jan 20 18:49:11 2019 from ip68-99-209-236.ph.ph.cox.net
+This is a bastion host used to access the rest of the environment.
+
+Shortcut commands to access each resource
+-----------------------------------------
+Ocelote:                El Gato:                
+$ ocelote               $ elgato                
+
+[jasonbgiles@gatekeeper ~]$ ocelote
+Last login: Sun Jan 20 13:56:33 2019 from gatekeeper.hpc.arizona.edu
+***********************************************************************
+*
+* Color "ls" has been disabled to help improve storage performance.
+* If you need to restore the old behavior, add
+* "alias ls='ls --color=auto' 2>/dev/null" to your bash profile.
+*
+***********************************************************************
+[jasonbgiles@login2 ~]$ cd
+[jasonbgiles@login2 ~]$ cd /rsgrps/bh_class/
+[jasonbgiles@login2 bh_class]$ cd jasonbgiles/
+[jasonbgiles@login2 jasonbgiles]$ cd biosys-analytics/
+[jasonbgiles@login2 biosys-analytics]$ git pull upstream master
+From https://github.com/hurwitzlab/biosys-analytics
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+[jasonbgiles@login2 biosys-analytics]$ mkdir files
+[jasonbgiles@login2 biosys-analytics]$ ls
+assignments  bin  cmds	data  examples	files  hello.txt  lectures  LICENSE  README.md
+[jasonbgiles@login2 biosys-analytics]$ cd files/
+[jasonbgiles@login2 files]$ packet_write_wait: Connection to 128.196.131.12 port 22: Broken pipe
+Jasons-MacBook-Air:~ jasongiles$ ssh jasonbgiles@hpc.arizona.edu
+Password: 
+Duo two-factor login for jasonbgiles
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to XXX-XXX-5549
+ 2. Phone call to XXX-XXX-5549
+ 3. SMS passcodes to XXX-XXX-5549
+
+Passcode or option (1-3): 1
+Success. Logging you in...
+Last login: Mon Jan 21 09:54:39 2019 from ip68-99-209-236.ph.ph.cox.net
+This is a bastion host used to access the rest of the environment.
+
+Shortcut commands to access each resource
+-----------------------------------------
+Ocelote:                El Gato:                
+$ ocelote               $ elgato                
+
+[jasonbgiles@gatekeeper ~]$ ocelote
+Last login: Sun Jan 20 18:49:20 2019 from gatekeeper.hpc.arizona.edu
+***********************************************************************
+*
+* Color "ls" has been disabled to help improve storage performance.
+* If you need to restore the old behavior, add
+* "alias ls='ls --color=auto' 2>/dev/null" to your bash profile.
+*
+***********************************************************************
+[jasonbgiles@login3 ~]$ cd
+[jasonbgiles@login3 ~]$ cd /rsgrps/bh_class/jasonbgiles/biosys-analytics/files
+[jasonbgiles@login3 files]$ pwd
+/rsgrps/bh_class/jasonbgiles/biosys-analytics/files
+[jasonbgiles@login3 files]$ wget https://www.constitution.org/usdeclar.txt
+--2019-01-21 10:08:11--  https://www.constitution.org/usdeclar.txt
+Resolving www.constitution.org... 52.52.40.206, 52.8.181.78, 52.52.207.176, ...
+Connecting to www.constitution.org|52.52.40.206|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: “usdeclar.txt”
+
+    [ <=>                                                           ] 8,685       --.-K/s   in 0s      
+
+2019-01-21 10:08:11 (50.5 MB/s) - “usdeclar.txt” saved [8685]
+
+[jasonbgiles@login3 files]$ ls
+usdeclar.txt
+[jasonbgiles@login3 files]$ wget https://www.usconstitution.net/const.txt
+--2019-01-21 10:08:30--  https://www.usconstitution.net/const.txt
+Resolving www.usconstitution.net... 52.8.181.78
+Connecting to www.usconstitution.net|52.8.181.78|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: “const.txt”
+
+    [ <=>                                                           ] 45,119      --.-K/s   in 0.04s   
+
+2019-01-21 10:08:30 (1.11 MB/s) - “const.txt” saved [45119]
+
+[jasonbgiles@login3 files]$ wget https://www.gutenberg.org/files/25344/25344-0.txt -o scarlet.txt
+[jasonbgiles@login3 files]$ ls
+25344-0.txt  const.txt	scarlet.txt  usdeclar.txt
+[jasonbgiles@login3 files]$ ls -l
+total 584
+-rw-r--r-- 1 jasonbgiles bh_class 525464 Jan 23  2015 25344-0.txt
+-rw-r--r-- 1 jasonbgiles bh_class  45119 Jan 18 11:58 const.txt
+-rw-r--r-- 1 jasonbgiles bh_class   1243 Jan 21 10:08 scarlet.txt
+-rw-r--r-- 1 jasonbgiles bh_class   8685 Jan 18 11:58 usdeclar.txt
+[jasonbgiles@login3 files]$ rm scarlet.txt 25344-0.txt 
+[jasonbgiles@login3 files]$ ls
+const.txt  usdeclar.txt
+[jasonbgiles@login3 files]$ wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+--2019-01-21 10:11:12--  https://www.gutenberg.org/files/25344/25344-0.txt
+Resolving www.gutenberg.org... 152.19.134.47, 2610:28:3090:3000:0:bad:cafe:47
+Connecting to www.gutenberg.org|152.19.134.47|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 525464 (513K) [text/plain]
+Saving to: “scarlet.txt”
+
+100%[==============================================================>] 525,464     1.03M/s   in 0.5s    
+
+2019-01-21 10:11:13 (1.03 MB/s) - “scarlet.txt” saved [525464/525464]
+
+[jasonbgiles@login3 files]$ ls -i
+201389164 const.txt  201389167 scarlet.txt  201389162 usdeclar.txt
+[jasonbgiles@login3 files]$ ls-l
+-bash: ls-l: command not found
+[jasonbgiles@login3 files]$ ls -l
+total 584
+-rw-r--r-- 1 jasonbgiles bh_class  45119 Jan 18 11:58 const.txt
+-rw-r--r-- 1 jasonbgiles bh_class 525464 Jan 23  2015 scarlet.txt
+-rw-r--r-- 1 jasonbgiles bh_class   8685 Jan 18 11:58 usdeclar.txt
+[jasonbgiles@login3 files]$ wc -l *.txt
+   872 const.txt
+  9120 scarlet.txt
+   176 usdeclar.txt
+ 10168 total
+[jasonbgiles@login3 files]$ find . -type f -size +50k
+./scarlet.txt
+[jasonbgiles@login3 files]$ file const.txt
+const.txt: ASCII English text
+[jasonbgiles@login3 files]$ md5sum *.txt
+f66a8165c621d48bac2216b2f31e8742  const.txt
+4958553be1483e4cbd615ce5fa73f6ab  scarlet.txt
+7f54939b30ae7b6d45d473a4c82a41b0  usdeclar.txt
+[jasonbgiles@login3 files]$ du
+584	.
+[jasonbgiles@login3 files]$ df
+Filesystem               1K-blocks          Used    Available Use% Mounted on
+/dev/sda2                944785812      27663096    869123640   4% /
+none                      98884376             4     98884372   1% /dev/shm
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs1/rsgrps
+                     1543570980864 1199116419072 344454561792  78% /rsgrps
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs2/pbs
+                       35970351104    6848034816  29122316288  20% /pbs
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs2/Bright_cm_shared
+                       35970351104    6848034816  29122316288  20% /cm/shared
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs1/bio5
+                        4294967296     410201088   3884766208  10% /bio5
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs2/unsupported
+                       35970351104    6848034816  29122316288  20% /unsupported
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs3/extra
+                      540897443840   47150201856 493747241984   9% /extra
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs3/xdisk
+                       10737418240             0  10737418240   0% /xdisk
+hpc-nfs0-10g.hpc.arizona.edu:/gsfs2/home
+                       35970351104    6848034816  29122316288  20% /home
+[jasonbgiles@login3 files]$ grep 'judge' *.txt > judge
+[jasonbgiles@login3 files]$ wc -l !$
+wc -l judge
+17 judge
+[jasonbgiles@login3 files]$ grep -l 'human' *.txt
+scarlet.txt
+usdeclar.txt
+[jasonbgiles@login3 files]$ grep 'scarlet' scarlet.txt | wc -l
+107
+[jasonbgiles@login3 files]$ grep 'scarlet' scarlet.txt | wc -w
+1233
+[jasonbgiles@login3 files]$ head -15 *.txt > foo
+[jasonbgiles@login3 files]$ ls
+const.txt  foo	judge  scarlet.txt  usdeclar.txt
+[jasonbgiles@login3 files]$ rm judge
+[jasonbgiles@login3 files]$ wc -l foo
+50 foo
+[jasonbgiles@login3 files]$ rm foo
+[jasonbgiles@login3 files]$ ls
+const.txt  scarlet.txt	usdeclar.txt
+[jasonbgiles@login3 files]$ head -15 *.txt > foo
+[jasonbgiles@login3 files]$ wc -l foo
+50 foo
+[jasonbgiles@login3 files]$ rm foo
+[jasonbgiles@login3 files]$ history > cmds
+[jasonbgiles@login3 files]$ ls
+cmds  const.txt  scarlet.txt  usdeclar.txt
+[jasonbgiles@login3 files]$ 
+
