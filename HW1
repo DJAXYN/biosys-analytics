@@ -1,0 +1,23 @@
+touch answers.txt
+wget
+wget
+wget -o scarlet.txt
+ls -l
+wc -l *.txt
+find . -type f -size +50k
+file const.txt
+md5sum *.txt
+df
+grep 'judge' *.txt > judge
+
+wc -l !$
+
+grep -l 'human' *.txt
+
+grep 'scarlet' 25344-0.txt | wc -w
+
+head -15 *.txt > foo
+
+wc -l Foo
+rm foo
+  
