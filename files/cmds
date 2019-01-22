@@ -1,0 +1,202 @@
+    1  pwd
+    2  cd /rsgrps/karnes/HIT/HIT_GREIF/GWAS_Impute
+    3  pwd
+    4  qsub plink_submit.pbs
+    5  pwd
+    6  cd /rsgrps/karnes/HIT/HIT_GREIF/GWAS_Impute
+    7  pwd
+    8  qsub plink_submit.pbs
+    9  qstat
+   10  pwd
+   11  cd /rsgrps/karnes/HIT/HIT_GREIF/GWAS_Impute
+   12  pwd
+   13  qsub plink_submit.pbs
+   14  ls
+   15  pwd
+   16  cd
+   17  ls
+   18  pwd
+   19  mkdir test/
+   20  ls
+   21  pwd
+   22  whoami
+   23  w
+   24  man
+   25  man ls
+   26  ls -l
+   27  ls
+   28  echo hello
+   29  echo Hello, World
+   30  cowsay hello
+   31  env
+   32  echo $user
+   33  echo $USER
+   34  echo USER
+   35  type ssh
+   36  which ssh
+   37  touch foo
+   38  pwd
+   39  ls
+   40  ls -l
+   41  ls -h
+   42  ls -lh
+   43  rm foo
+   44  ls -lh
+   45  man find
+   46  find --help
+   47  touch foo
+   48  cd
+   49  pwd
+   50  cd /root
+   51  cd /
+   52  pwd
+   53  ls
+   54  ls -l
+   55  pwd
+   56  cd 
+   57  pwd
+   58  cd $HOME
+   59  echo $home
+   60  top
+   61  ps -fu $USER
+   62  w
+   63  w > who
+   64  ls -lh who
+   65  cat < who 
+   66  head < who
+   67  cat < who | head
+   68  ls -l
+   69  tree
+   70  echo $PATH
+   71  PATH=/rsgrps/bh_class/bin:$PATH
+   72  pwd
+   73  which python
+   74  conda --version
+   75  ls
+   76  echo $PATH
+   77  ls
+   78  ls -a
+   79  ls -l
+   80  cd
+   81  cd .ssh
+   82  cat id_rsa.pub
+   83  ls
+   84  cd /rsgrps/bh_class
+   85  ls
+   86  mkdir jasonbgiles
+   87  ls
+   88  cd
+   89  cd .ssh
+   90  ls
+   91  CD
+   92  cd
+   93  pwd
+   94  ~/.ssh/authorized_keys
+   95  pwd
+   96  ls
+   97  cd
+   98  cd .ssh
+   99  ls
+  100  ssh-keygen
+  101  cat id_rsa.pub
+  102  cd
+  103  cd .ssh
+  104  cat id_rsa.pub
+  105  cd /rsgrps/bh_class/jasonbgiles
+  106  pwd
+  107  git clone git@github.com:djaxyn/biosys-analytics.git
+  108  ls
+  109  pwd
+  110  cd /biosys-analytics
+  111  cd biosys-analytics/
+  112  ls
+  113  git fetch upstream
+  114  git checkout master
+  115  git pull https://github.com/hurwitzlab/biosys-analytics.git
+  116  git remote add upstream https://github.com/hurwitzlab/biosys-analytics.git
+  117  git pull upstream master
+  118  echo hello > hello.txt
+  119  git add hello.txt
+  120  git commit -m 'added hello' hello.txt
+  121  git push
+  122  git push --help
+  123  get pull
+  124  git pull
+  125  git push
+  126  git pull upstream master
+  127  git push
+  128  cd
+  129  cd /rsgrps/bh_class
+  130  pwd
+  131  cd jasonbgiles/
+  132  ls
+  133  git pull
+  134  git pull upstream master
+  135  cd biosys-analytics/
+  136  ls
+  137  git pull upstream master
+  138  git push
+  139  echo $PATH
+  140  cd
+  141  echo $PATH
+  142  cd
+  143  echo "export PATH=/rsgrps/bh_class/conda/bin:/rsgrps/bh_class/bin:$PATH" >> ~/.bashrc
+  144  $PATH
+  145  echo $PATH | sed "s/:/\n/g"
+  146  echo "export PATH=/rsgrps/bh_class/conda/bin:/rsgrps/bh_class/bin:$PATH" >> ~/.bashrc
+  147  echo $PATH | sed "s/:/\n/g"
+  148  $HOME/.bashrc
+  149  export PATH="/rsgrps/bh_class/conda/bin:/rsgrps/bh_class/bin:$PATH"
+  150  echo $PATH | sed "s/:/\n/g"
+  151  cd 
+  152  cd /rsgrps/bh_class
+  153  ls
+  154  cd jasonbgiles/
+  155  git pull upstream master
+  156  cd biosys-analytics/
+  157  git pull upstream master
+  158  git push
+  159  ls -l
+  160  w | head -5
+  161  w
+  162  w|head
+  163  w | head
+  164  w | head -5
+  165  history>cmds
+  166  grep 'oo' /usr/share/dict/words | head -5
+  167  cd
+  168  cd /rsgrps/bh_class/jasonbgiles/biosys-analytics/files
+  169  pwd
+  170  wget https://www.constitution.org/usdeclar.txt
+  171  ls
+  172  wget https://www.usconstitution.net/const.txt
+  173  wget https://www.gutenberg.org/files/25344/25344-0.txt -o scarlet.txt
+  174  ls
+  175  ls -l
+  176  rm scarlet.txt 25344-0.txt 
+  177  ls
+  178  wget -O scarlet.txt https://www.gutenberg.org/files/25344/25344-0.txt
+  179  ls -i
+  180  ls-l
+  181  ls -l
+  182  wc -l *.txt
+  183  find . -type f -size +50k
+  184  file const.txt
+  185  md5sum *.txt
+  186  du
+  187  df
+  188  grep 'judge' *.txt > judge
+  189  wc -l judge
+  190  grep -l 'human' *.txt
+  191  grep 'scarlet' scarlet.txt | wc -l
+  192  grep 'scarlet' scarlet.txt | wc -w
+  193  head -15 *.txt > foo
+  194  ls
+  195  rm judge
+  196  wc -l foo
+  197  rm foo
+  198  ls
+  199  head -15 *.txt > foo
+  200  wc -l foo
+  201  rm foo
+  202  history > cmds
