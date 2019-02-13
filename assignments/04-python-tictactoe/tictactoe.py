@@ -71,9 +71,8 @@ def print_board(board):
     print('| ' + board[6] + ' | ' + board[7] + ' | ' + board[8] + ' |')
     print('-------------')
 # --------------------------------------------------
-def state_lister():
-    if len(state) == 9:
-        
+
+
 
 
 
