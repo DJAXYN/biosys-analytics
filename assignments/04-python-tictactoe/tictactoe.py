@@ -84,19 +84,44 @@ def main():
     cell = args.cell
     player = args.player
     #print(state)
-    if state =='.........' and cell == None and player =='':
-        print(print_board(test))
-    if len(state) != 9:
-        print('STATE "{}" must be 9 characters of only ., X, O'.format(state))
-    if len(state) == 9:
-        for i in state:
-            if i not in ['.','X','O']:
-                print('STATE "{}" must be 9 characters of only ., X, O'.format(state))
-                sys.exit(1)
-    if player.upper() not in ['X','O'] and player != '':
-        print('Invalid player "{}", must be X or O'.format(player))
-        die()
 
+    # Check state
+    if len(state) != 9:
+        die('State "{}" must be 9 characters of only ., X, O'.format(state))
+
+    for i in state.upper():
+        if i not in '.XO':
+            die('State "{}" must be 9 characters of only ., X, O'.format(state))
+
+    # Check player
+    if player.upper() not in ['X','O'] and player != '':
+        die('Invalid player "{}", must be X or O'.format(player))
+
+    # Check cell
+    if cell is not None:
+        if cell not in range(1,10):
+            die('Invalid cell "{}", must be 1-9'.format(cell))
+
+    #Check player and cell
+    if any([cell,player]) and not all([cell,player]):
+        die('Must provide both --player and --cell')
+
+    #if cell in range(1,10) and player:
+
+           #print_board(test)
+
+
+    #print if no arguments given
+    if state == '.........' and cell == None and player == '':
+        print_board(test)
+
+    # Print a valid state
+    #print(state)
+    #print(type(state))
+    if state !='.........':
+        print_board(state)
+        #print(state_list)
+        #for val in state:
 
 
 # --------------------------------------------------
