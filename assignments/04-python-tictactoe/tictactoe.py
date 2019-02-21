@@ -118,8 +118,8 @@ def main():
     # Print a valid state
     #print(state)
     #print(type(state))
-    if state !='.........':
-        print_board(state)
+    #if state !='.........':
+        #print_board(state)
         #print(state_list)
         #for val in state:
 

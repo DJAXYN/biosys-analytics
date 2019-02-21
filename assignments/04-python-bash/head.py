@@ -22,7 +22,6 @@ def main():
     if not os.path.isfile(file):
         print('{} is not a file'.format(file))
         sys.exit(1)
-
     if len(file_info[1:]) < 1:
         head_count = 3
     else:

@@ -1,4 +1,13 @@
 # 04 Graduate Assignment: Tic-Tac-Toe
+use the new_py -a
+
+in arg parse use  `choice` for range int(1,11)
+
+positional arguments are necessary things in the commands
+flags are -l, -h etc. are named options
+the argument parser is a way to talk about flags
+
+**skip an iteration of a loop part in notes for hw**
 
 Write a Python program named "tictactoe.py" that accepts four named arguments:
 
@@ -15,7 +24,7 @@ Your program must do the following:
 * If provided only `--player` or `--cell`, print the message "Must provide both --player and --cell" and exit *with an error code*
 * If provided `--player`, ensure it is only an "X" or "O"; if not, print the expected message and exit *with an error code*
 * If provided `--cell`, ensure it is in 1-9; if not, print the expected message and exit *with an error code*
-* If provided both `--player` and `--cell`, modify the `--state` to change the given "cell" to the value of "player"; e.g., if `--state` is "........." `--cell` is 1, and `--player` is "X", the state should change to "X........" and then print the board with the new state 
+* If provided both `--player` and `--cell`, modify the `--state` to change the given "cell" to the value of "player"; e.g., if `--state` is "........." `--cell` is 1, and `--player` is "X", the state should change to "X........" and then print the board with the new state
 
 # Expected behavior
 
@@ -31,7 +40,7 @@ Tic-Tac-Toe board
 
 optional arguments:
   -h, --help            show this help message and exit
-  -s str, --state str   Board state (default: .........)
+  -s str, --state str   Board state (default: ---------)
   -p str, --player str  Player (default: )
   -c str, --cell str    Cell to apply -p (default: )
 ````
@@ -53,9 +62,9 @@ Die if given a bad `--state` (too short, not made entirely of "-XO"). Note the f
 
 ````
 $ ./tictactoe.py -s abcdefghi
-State "abcdefghi" must be 9 characters of only ., X, O
+State "abcdefghi" must be 9 characters of only -, X, O
 $ ./tictactoe.py --state XXO
-State "XXO" must be 9 characters of only ., X, O
+State "XXO" must be 9 characters of only -, X, O
 ````
 
 Die on invalid player:

@@ -7,6 +7,9 @@ Purpose: Rock the Casbah
 
 import os
 import sys
+from collections import defaultdict, Counter
+
+
 
 
 # --------------------------------------------------
@@ -20,13 +23,14 @@ def main():
     dna = args[0]
 
     print('DNA is "{}"'.format(dna))
+    # with Counter, all the for loop goes away
+    countss = Counter(dna)
 
-
-    counts ={}
+    counts = defaultdict(int)
     for char in dna:
         print(char)
-        if char not in counts:
-            counts[char] = 0
+        #if char not in counts:
+            #counts[char] = 0
         counts[char] += 1
 
     print ('A = {}'.format(counts.get('A',0)))
