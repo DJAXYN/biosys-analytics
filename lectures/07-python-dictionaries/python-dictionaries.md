@@ -1,5 +1,7 @@
 # Python Dictionaries
 
+Jason Notes:
+
 Python has a data type called a "dictionary" that allows you to associate some "key" (often a string but it could be a number or even a tuple) to some "value" (which can be anything such as a string, number, tuple, list, set, or another dictionary).  The same data structure in other languages is also called a map, hash, and associative array.
 
 You can define the define a dictionary with all the key/value pairs using the `{}` braces:
@@ -686,6 +688,18 @@ You should read the documentation to learn more ([https://docs.python.org/3/libr
 
 Finally, I'll show you a version of the character counter that takes some other arguments to control how to show the results:
 
+jason notes: sorted() can sort an array but not dictionary.
+
+for t in a:
+  print(t)
+  # prints tuples
+
+for attr, val in a:
+  print('{} = {}'. format(att,val))
+
+for sorted order
+
+will need that when you need to turn things arounds. 
 ```
 $ cat -n char_count2.py
      1	#!/usr/bin/env python3
@@ -1152,7 +1166,7 @@ Obviously we will miss all those words because the are not spelled exactly the s
 
 ```
 l a b o u r      c a t a l o g u e      p r e t e n c e     l i t r e
-| | | |   |      | | | | | | |          | | | | | |   |     | | | 
+| | | |   |      | | | | | | |          | | | | | |   |     | | |
 l a b o   r      c a t a l o g          p r e t e n s e     l i t e r
 ```
 
@@ -1194,4 +1208,3 @@ There are 112 kmers in common between "british.txt" (127) and "american.txt" (12
 ```
 
 Our word counting program thought these two texts only 76% similar, but our kmer counter thinks they are 86% similar.
-
