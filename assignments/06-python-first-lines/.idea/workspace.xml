@@ -2,8 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c4972ac-d37d-4ec2-b4fb-4bd6f61b94c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../05-python-proteins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-python-proteins/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/csv_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-1002.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-101.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-10202.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-10548.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-11345.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-22429.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-226.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/ena-9991.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/files" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/xml_ena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/12-regular-expressions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/examples/lat_lon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/examples/parse_lat_lon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/python-regex.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/13-python-pipelines.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/python-pipelines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/14-hpc.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/parallel/parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/parallel/parallel.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/00-controller.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/01-fasta-split.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/02-blast.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/common.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/blast/workers/fasta-split.pl6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/hello/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/hello/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/hello/hello.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/job-array/ftp-get.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/job-array/get-me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/job-array/submit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/simple/ftp-get.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/simple/get-me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/pbs/simple/submit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/fastq-to-fasta/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/fastq-to-fasta/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/fastq-to-fasta/fq2fa.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/hello/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/hello/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/hello/hello.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/launcher/iget/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/launcher/iget/iget.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/examples/slurm/launcher/iget/reads.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/14-hpc/hpc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/15-containers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/containers.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/examples/simple/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/examples/simple/hello.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/15-containers/examples/simple/image.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/16-cyverse-apps.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/bin/app_json_to_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/cyverse-apps.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/misc/copy_from_manifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/misc/new_bash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/misc/upload-file.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/scripts/lc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/singularity/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/singularity/image.def" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/stampede/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/stampede/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/stampede/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/stampede/template.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/16-cyverse-apps/stampede/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/biosys.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lectures/compile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/README.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/02-unix/unix.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/02-unix/unix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/subset_fastx.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/09-python-parsing/examples/subset_fastx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/Makefile" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +105,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/first_lines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="245">
               <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
@@ -120,7 +200,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="23" width="1374" height="809" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -158,7 +237,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first_lines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="245">
           <caret line="78" column="41" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
