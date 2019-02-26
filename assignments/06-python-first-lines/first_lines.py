@@ -26,7 +26,7 @@ def get_args():
         help='A named string argument',
         metavar='int',
         type=int,
-        default=55)
+        default=50)
 
     return parser.parse_args()
 
@@ -53,16 +53,17 @@ def main():
 
     if len(dirs) < 1:
         die()
-    '''
-    for dir in dirs:
-        if not os.path.isdir(dir):
-            warn('"{}" is not a directory'.format(dir))
-'''
 
-    dick_list = {}
     for dir in dirs:
         if not os.path.isdir(dir):
             warn('"{}" is not a directory'.format(dir))
+
+
+    #dick_list = {}
+    for dir in dirs:
+        dick_list = {}
+        if not os.path.isdir(dir):
+            #warn('"{}" is not a directory'.format(dir))
             continue
         else:
             print(dir)
@@ -76,7 +77,7 @@ def main():
             #print(sort_dict_list)
             for key,value in sort_dict_list:
                 #print(len(key))
-                dots_add = line_length +5 - len(key) - len(value)
+                dots_add = line_length - len(key) - len(value)
                 #print(dots_add)
                 dots = '.'*dots_add
                 print('{} {} {}'.format(key,dots,value))
