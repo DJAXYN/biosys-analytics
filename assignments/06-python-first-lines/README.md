@@ -20,7 +20,7 @@ whitman
 A sight in camp in the daybreak gray and dim, ..... 1.txt
 I have said that the soul is not more than the body,  2.txt
 Passing stranger! you do not know how longingly I look upon you,  4.txt
-Shut not your doors to me, proud libraries, ....... 5.txt
+Shut not your doors to me, proud libraries,   ....... 5.txt
 We two, how long we were fool’d, .................. 3.txt
 $ ./first_lines.py -w 40 dickinson blake
 dickinson
@@ -48,7 +48,7 @@ To see a World in a Grain of Sand ....... 3.txt
 Tyger! Tyger! burning bright, ........... 2.txt
 ````
 
-# Tests 
+# Tests
 
 A passing test suite looks like:
 
