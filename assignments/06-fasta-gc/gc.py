@@ -36,7 +36,7 @@ def get_args():
         help='Percent GC',
         metavar='int',
         type=int,
-        default=0)
+        default=50)
 
     return parser.parse_args()
 
@@ -58,16 +58,42 @@ def die(msg='Something bad happened'):
 def main():
     """Make a jazz noise here"""
     args = get_args()
-    str_arg = args.arg
-    int_arg = args.int
-    flag_arg = args.flag
-    pos_arg = args.positional
+    fasta = args.fasta
+    out_dir = args.outdir
+    pct_gc = args.pct_gc
 
-    print('str_arg = "{}"'.format(str_arg))
-    print('int_arg = "{}"'.format(int_arg))
-    print('flag_arg = "{}"'.format(flag_arg))
-    print('positional = "{}"'.format(pos_arg))
+    j = 0
 
+    if not os.path.isdir(out_dir):
+        os.makedirs(out_dir)
+
+    if not pct_gc in range(1,101):
+        die('--pct_gc "{}" must be between 0 and 100'.format(pct_gc))
+
+    for i, fasta_file in enumerate(fasta, 1):
+        if not os.path.isfile(fasta_file):
+            warn('"{}" is not a file'.format((fasta_file)))
+            continue
+        print("{:3}: {}".format(i,fasta_file))
+        base,ext = os.path.splitext(os.path.basename(fasta_file))
+        lowout = os.path.join(out_dir, base+'_low'+ext)
+        highout = os.path.join(out_dir, base+'_high'+ext)
+        lowout_fh = open(lowout,'w')
+        highout_fh = open(highout,'w')
+        for record in SeqIO.parse(fasta_file, 'fasta'):
+            seq_len = len(record.seq)
+            nucs = (Counter(record.seq))
+            gc_num = nucs.get('G', 0) + nucs.get('C', 0)
+            #print(record.seq)
+            gc = (int(gc_num / seq_len * 100))
+            if gc < pct_gc:
+                SeqIO.write(record,lowout_fh,'fasta')
+                j += 1
+            else:
+                SeqIO.write(record, highout_fh, 'fasta')
+                j += 1
+
+    print('Done, wrote {} sequences to out dir "{}"'.format(j,out_dir))
 
 # --------------------------------------------------
 if __name__ == '__main__':
