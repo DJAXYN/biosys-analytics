@@ -83,7 +83,7 @@ def main():
         reader = csv.DictReader(annotate_fh, delimiter=',')
         for row in reader:
             anndict[row['centroid']] = row
-        print(anndict)
+        #print(anndict)
 
     outfh.write('\t'.join(["seq_id" "pident" "genus", "species\n"]))
     with open(blastf,'r') as blastfh:
@@ -101,8 +101,8 @@ def main():
             genus = info.get('genus') or 'NA'
             #print(genus)
             species = info.get('species') or "NA"
-            print(seqid,pct,genus,species)
-            outfh.write('\t'.join([seqid,pct,genus,species]))
+            #print(seqid,pct,genus,species)
+            outfh.write('\t'.join([seqid,pct,genus,species,'\n']))
 
 
 

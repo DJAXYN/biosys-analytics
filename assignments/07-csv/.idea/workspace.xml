@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a2fab153-d766-47e0-bfd3-1fa85e79329f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../06-python-first-lines/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-python-first-lines/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hits1.tab" beforeDir="false" afterPath="$PROJECT_DIR$/hits1.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blastomatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/blastomatic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blastomatic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="104" column="58" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
+            <state relative-caret-position="157">
+              <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -47,6 +48,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>warn</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -135,7 +141,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.1281337" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.54178274" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32914925" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -171,8 +177,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blastomatic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="104" column="58" selection-start-line="104" selection-start-column="58" selection-end-line="104" selection-end-column="58" />
+        <state relative-caret-position="157">
+          <caret line="104" column="62" selection-start-line="104" selection-start-column="62" selection-end-line="104" selection-end-column="62" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
