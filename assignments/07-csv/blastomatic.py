@@ -31,7 +31,7 @@ def get_args():
 
     parser.add_argument(
         '-o',
-        '--out',
+        '--outfile',
         help='output file name',
         metavar='FILE',
         type=str,
@@ -58,7 +58,7 @@ def main():
     """Make a jazz noise here"""
     args = get_args()
     annotate_file = args.annotations
-    outfh = args.out
+    outfh = args.outfile
     blastf = args.blast_file
 
     for file in [blastf, annotate_file]:
