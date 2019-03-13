@@ -80,7 +80,7 @@ def main():
             seqid = row['saccver']
             pct = row['pident']
             if seqid not in anndict:
-                warn('Cannot find seq "{}" in lookup\n'.format(seqid))
+                warn('Cannot find seq "{}" in lookup'.format(seqid))
                 continue
             info = anndict.get(seqid)
             genus = info.get('genus') or 'NA'
