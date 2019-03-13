@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
 """
 Author : jasongiles
-Date   : 2019-02-26
+Date   : 2019-03-12
 Purpose: Rock the Casbah
 """
 
 import argparse
 import sys
-from Bio import SeqIO
-from collections import Counter
 
 
 # --------------------------------------------------
@@ -19,23 +17,26 @@ def get_args():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument(
-        'fasta', metavar='FILE', help='fasta file', nargs='+')
+        'positional', metavar='str', help='A positional argument')
 
     parser.add_argument(
-        '-o',
-        '--outdir',
-        help='Output directory',
-        metavar='Dir',
+        '-a',
+        '--arg',
+        help='A named string argument',
+        metavar='str',
         type=str,
-        default=out)
+        default='')
 
     parser.add_argument(
-        '-p',
-        '--pct_gc',
-        help='Percent GC',
+        '-i',
+        '--int',
+        help='A named integer argument',
         metavar='int',
         type=int,
-        default=50)
+        default=0)
+
+    parser.add_argument(
+        '-f', '--flag', help='A boolean flag', action='store_true')
 
     return parser.parse_args()
 
@@ -57,23 +58,15 @@ def die(msg='Something bad happened'):
 def main():
     """Make a jazz noise here"""
     args = get_args()
-    fasta = args.fasta
-    out_dir = args.outdir
-    pct_gc = args.pct_gc
+    str_arg = args.arg
+    int_arg = args.int
+    flag_arg = args.flag
+    pos_arg = args.positional
 
-    for file in fasta:
-        print(file)
-        for record in SeqIO.parse(file, 'fasta'):
-            seq_len = len(record.seq)
-            nucs = (Counter(record.seq))
-            gc_num = nucs.get('G',0) + nucs.get('C', 0)
-            print(record.seq)
-            gc = (int(gc_num/seq_len * 100))
-            print(gc)
-            print('High' if gc >= pct_gc else "Low")
-            print()
-
-
+    print('str_arg = "{}"'.format(str_arg))
+    print('int_arg = "{}"'.format(int_arg))
+    print('flag_arg = "{}"'.format(flag_arg))
+    print('positional = "{}"'.format(pos_arg))
 
 
 # --------------------------------------------------

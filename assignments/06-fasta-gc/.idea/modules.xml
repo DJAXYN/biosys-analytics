@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/07-csv.iml" filepath="$PROJECT_DIR$/.idea/07-csv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/06-fasta-gc.iml" filepath="$PROJECT_DIR$/.idea/06-fasta-gc.iml" />
     </modules>
   </component>
 </project>
