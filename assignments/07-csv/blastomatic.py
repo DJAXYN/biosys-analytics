@@ -34,8 +34,8 @@ def get_args():
         '--out',
         help='output file name',
         metavar='FILE',
-        type=argparse.FileType('w'),
-        default=None)
+        type=str,
+        default='')
 
     return parser.parse_args()
 
@@ -69,10 +69,8 @@ def main():
         reader = csv.DictReader(annotate_fh, delimiter=',')
         for row in reader:
             anndict[row['centroid']] = row
-    if outfh:
-        outfh.write('\t'.join(["seq_id", "pident", "genus", "species"])+'\n')
-    else:
-        sys.stdout.write(('\t'.join(["seq_id", "pident", "genus", "species"])+'\n'))
+    out_fh = open(outfh,'w') if outfh else sys.stdout
+    out_fh.write('\t'.join(["seq_id", "pident", "genus", "species"])+'\n')
 
     with open(blastf,'r') as blastfh:
         header = ["qaccver", "saccver", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send",
@@ -87,10 +85,7 @@ def main():
             info = anndict.get(seqid)
             genus = info.get('genus') or 'NA'
             species = info.get('species') or "NA"
-            if outfh:
-                outfh.write('\t'.join([seqid,pct,genus,species])+"\n")
-            else:
-                sys.stdout.write('\t'.join([seqid,pct,genus,species])+"\n")
+            out_fh.write('\t'.join([seqid,pct,genus,species])+"\n")
 
 
 
