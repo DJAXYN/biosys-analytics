@@ -1,0 +1,28 @@
+seq_id	pident	genus	species
+bfb6f5dfb4d0ef0842be8f5df6c86459	99.567	Prochlorococcus MIT9313	NA
+0dab11245fb6fe800362cdc20953d0f6	98.701	Prochlorococcus MIT9313	Ambiguous_taxa
+9c2271504f3393684fd1ed93d1d1a9ab	98.701	Prochlorococcus MIT9313	Ambiguous_taxa
+26cbd1b8b6fcd255774f4f79be2f259c	98.701	Prochlorococcus MIT9313	NA
+6192b152a8c84ff13fe6a7dced9c9357	98.268	Prochlorococcus MIT9313	NA
+61d060a46dadd0fbcdb099bbf4a36221	98.268	Prochlorococcus MIT9313	NA
+6da08abcdd74ae66dd2ef4112384faa5	98.268	Prochlorococcus MIT9313	Ambiguous_taxa
+50d394faf698e238e9bd05b251499cee	97.835	Prochlorococcus MIT9313	NA
+1642658999590e25a39926d281dea501	96.537	Synechococcus CC9902	NA
+3b270c08bb30c41877e4e9d14b713111	96.104	Cyanobium PCC-6307	uncultured bacterium
+19bd23d75887c353feb4fc879546bfce	94.805	Synechococcus CC9902	NA
+b62967e20f66cd64cecbc8656f844381	88.596	NA	NA
+89e4e35fcfbfad8e89d0d86cbb2bc7fb	88.158	uncultured bacterium	uncultured bacterium
+721f1d1b9ef4ab213e009e6ae7dbddb5	88.158	uncultured bacterium	uncultured bacterium
+f142a32d5cbf5601c2b6dc609763dea6	88.158	uncultured bacterium	uncultured bacterium
+d7b67e333eaa2e20c1c2dadf79b50540	87.719	NA	NA
+de8f78de1ac46b423fc2a6a1b1620759	87.719	uncultured bacterium	uncultured bacterium
+cffc8bc931f100f0f136f6348f3d19d7	90.722	LS-NOB	uncultured bacterium
+22a0e4345dc206656a376f46fd4943b6	90.722	LS-NOB	uncultured bacterium
+0793b72ed5273d1c3603f3e2f307855d	91.444	Thermoanaerobaculum	uncultured bacterium
+cc04070a36d0318e4e9e7c0522040332	91.053	uncultured bacterium	uncultured bacterium
+b4463096f71fdc3ed3436e2015f69931	90.722	LS-NOB	uncultured bacterium
+f548a919b1b73904c042679d94aa397c	86.957	SUP05 cluster	NA
+36979e77ea1146d29be7471a66663ceb	86.900	uncultured bacterium	uncultured bacterium
+0d00b259b1e8c443ff5ee9fe3a5fbce9	90.206	uncultured organism	uncultured organism
+7cf27cbe5a179b4ac854910c8979b4aa	86.638	NA	NA
+a0952bd2b994a100c0a28a35735cec6b	86.842	uncultured bacterium	uncultured bacterium
