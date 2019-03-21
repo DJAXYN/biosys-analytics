@@ -1,3 +1,15 @@
+# JASON NOTES
+can use parser used for BioPython. Seqio ( tell it swiss). has annotations which has keywords and taxonomy. Has a record that has record called annotations. which is dict. The value of 'keywords ' is lists
+or bioswissprot module. taxonomy is called ( classification)
+list of taxa: NARGS+
+Look at SETS;
+  list of taxa from record. List of taxa from list of excludes;
+  can sort them
+  
+
+
+
+
 # Python Gradaute - Parsing SwissProt
 
 > “Without requirements or design, programming is the art of adding bugs to an empty text file." - Louis Srygley
@@ -38,7 +50,7 @@ Done, skipped 13 and took 2. See output in "out.fa".
 
 # BioPython SwissProt Record
 
-A FASTA record had three attributes: ID, description, and sequence. A SwissProt record has considerably more which will make sense once you look at the file. 
+A FASTA record had three attributes: ID, description, and sequence. A SwissProt record has considerably more which will make sense once you look at the file.
 
 There are at least two ways I've found to parse a SwissProt record. One is use `SeqIO.parse(fh, 'swiss')` which gives you a record very similar to a FASTA record which has an `annotations` attribute which is a dictionary that looks like this:
 
