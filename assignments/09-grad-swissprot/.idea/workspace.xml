@@ -4,7 +4,8 @@
     <list default="true" id="a5e65f4a-8257-460b-a377-c4826238489c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../07-csv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-csv/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09-bottles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-bottles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swisstake.py" beforeDir="false" afterPath="$PROJECT_DIR$/swisstake.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/10-python-games/python-games.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/10-python-games/python-games.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_xml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="48">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#97#106#0" expanded="true" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swisstake.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="107" column="44" lean-forward="true" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+            <state relative-caret-position="144">
+              <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -104,6 +105,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -116,7 +118,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4812239" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4853964" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -127,7 +129,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parse_xml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="48">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#97#106#0" expanded="true" />
@@ -137,8 +139,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/swisstake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="107" column="44" lean-forward="true" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+        <state relative-caret-position="144">
+          <caret line="110" column="60" selection-start-line="110" selection-start-column="60" selection-end-line="110" selection-end-column="60" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>

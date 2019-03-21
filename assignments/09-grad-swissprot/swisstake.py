@@ -81,42 +81,38 @@ def main():
 
     #print(keywords)
     keylist = [keywords]
-    print(keylist)
+    #print(keylist)
 
-    #print(skips)
-    #skiplist = [skip]
-    #print(skiplist)
-
-
+    outfile = open(out_fh,"w")
 
     fandle = open(in_fh)
     print('Processing "{}"'.format(in_fh))
     records = SwissProt.parse(fandle)
     #print(records)
-
+    i = 0
+    j = 0
     for record in records:
-        #print(record.keywords)
-        #print(record.organism_classification)
-        docset = set(record.keywords)
+        docset = record.keywords
+        docsetlower=[i.lower() for i in docset]
+        docsetlower=set(docsetlower)
         userset = set(keylist)
-        organismset = set(record.organism_classification)
-        skipset = set(skips)
-        thelen = skipset.union(organismset)
-        #print('THIS IS THE LENGHT', len(thelen))
-        #print(thelen)
-        #print(record.organism_classification)
-        if organismset.intersection(skipset):
-            print(record.keywords)
-            print('check me out', record.organism_classification)
+        i+=1
+
+        organismset = record.organism_classification
+        organismsetlower = [i.lower() for i in organismset]
+        organismsetlower = set(organismsetlower)
+        skipsetlower = [i.lower() for i in skips]
+        skipsetlower = set(skipsetlower)
+
+        if docsetlower.intersection(userset) and len(organismsetlower.intersection(skipsetlower)) == 0:
+            j +=1
+            outfile.write(str(record))
+
+    print('Done, skipped {} and took {}. See output in "{}".'.format((i-j),j,out_fh))
 
 
 
-    '''
-    for record in records:
-        print(record['KW'])
-        finder = record.get('KW') or 'NA'
-        print(finder)
-    '''
+
 
 
 
