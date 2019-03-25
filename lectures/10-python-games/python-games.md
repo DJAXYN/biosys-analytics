@@ -1,3 +1,7 @@
+cryptinomicon book
+
+
+
 # Writing Simple Games in Python
 
 Games are a terrific way to learn. If you take something simple you know well, you have all the information you need to complete it. Something simple like tic-tac-toe -- you know you need a board, some way for the user to select a cell, you need to keep track of who's playing (X or O), when they've made a bad move, and when someone has won. Games often need random values, interact with the user, employ infinite loops -- in short, they are fascinating and fun to program and play.
@@ -554,7 +558,7 @@ $ cat -n hangman.py
    142	    main()
 ````
 
-NB: I would mention that my approach to recursively calling the `play` function with a dictionary for state rather than creating an infinite `while` loop was influenced by my experience programming in the Elm language. 
+NB: I would mention that my approach to recursively calling the `play` function with a dictionary for state rather than creating an infinite `while` loop was influenced by my experience programming in the Elm language.
 
 Some notes on code:
 
@@ -691,9 +695,9 @@ Then we check if the guess is a character in the word; if so, add it to our prev
 ````
 elif new_guess in word:
     prev_guesses.add(new_guess)
-````	
+````
 
-This next bit is tricky. We need to `find` the position(s) of the character in the word. Since the character may occur more than once, we need to keep track of the last position where we found it and use that as the second optional argument to `find`. E.g., in "foo" the "o" occurs twice. Keeping in mind zero-based counting: 
+This next bit is tricky. We need to `find` the position(s) of the character in the word. Since the character may occur more than once, we need to keep track of the last position where we found it and use that as the second optional argument to `find`. E.g., in "foo" the "o" occurs twice. Keeping in mind zero-based counting:
 
 ````
 >>> zip(range(3), 'foo')

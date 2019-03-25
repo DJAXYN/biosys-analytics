@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4b51d8c-92be-4c2e-88ea-3353db19b73a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="87966fee-8595-49ed-ad6b-2c80db19b68d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../07-csv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-csv/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../09-bottles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-bottles/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09-grad-swissprot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../09-grad-swissprot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-grad-swissprot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09-grad-swissprot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-grad-swissprot/out.fa" beforeDir="false" afterPath="$PROJECT_DIR$/../09-grad-swissprot/out.fa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-grad-swissprot/swisstake.py" beforeDir="false" afterPath="$PROJECT_DIR$/../09-grad-swissprot/swisstake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/10-python-games/python-games.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/10-python-games/python-games.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lectures/12-regular-expressions/re.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/re.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blastomatic.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+            <state relative-caret-position="1245">
+              <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -26,7 +31,31 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/war.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+              <folding>
+                <element signature="e#97#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/warss.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -34,7 +63,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blastomatic.py" />
+        <option value="$PROJECT_DIR$/guess.py" />
+        <option value="$PROJECT_DIR$/warss.py" />
+        <option value="$PROJECT_DIR$/war.py" />
       </list>
     </option>
   </component>
@@ -49,18 +80,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="07-csv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07-csv" type="462c0819:PsiDirectoryNode" />
+              <item name="10-war" type="b2602c69:ProjectViewProjectNode" />
+              <item name="10-war" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -80,11 +111,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4b51d8c-92be-4c2e-88ea-3353db19b73a" name="Default Changelist" comment="" />
-      <created>1552506624398</created>
+      <changelist id="87966fee-8595-49ed-ad6b-2c80db19b68d" name="Default Changelist" comment="" />
+      <created>1553014036112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552506624398</updated>
+      <updated>1553014036112</updated>
     </task>
     <servers />
   </component>
@@ -103,7 +134,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32962447" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31015298" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -112,10 +143,23 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blastomatic.py">
+    <entry file="file://$PROJECT_DIR$/guess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        <state relative-caret-position="1245">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="e#97#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/warss.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/war.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>

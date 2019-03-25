@@ -10,6 +10,8 @@ import sys
 import os
 from Bio import SwissProt
 from Bio.SwissProt import KeyWList
+from Bio import SeqIO
+
 
 
 
@@ -88,10 +90,13 @@ def main():
     fandle = open(in_fh)
     print('Processing "{}"'.format(in_fh))
     records = SwissProt.parse(fandle)
+    records = SeqIO.parse(fandle, 'swiss')
+    print(records)
     #print(records)
     i = 0
     j = 0
     for record in records:
+        print(record)
         docset = record.keywords
         docsetlower=[i.lower() for i in docset]
         docsetlower=set(docsetlower)
@@ -106,7 +111,7 @@ def main():
 
         if docsetlower.intersection(userset) and len(organismsetlower.intersection(skipsetlower)) == 0:
             j +=1
-            outfile.write(str(record))
+            SeqIO.write(record, outfile, 'fasta')
 
     print('Done, skipped {} and took {}. See output in "{}".'.format((i-j),j,out_fh))
 
