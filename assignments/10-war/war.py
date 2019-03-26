@@ -76,13 +76,13 @@ def main():
         p1_code = deck_codes.get(p1_card[1])
         p2_code = deck_codes.get(p2_card[1])
         if p1_code>p2_code:
-            print('{}{:2} {}{} {}'.format(p1_card[0], p1_card[1], p2_card[0], p2_card[1], 'P1'))
+            print('{:>3} {:>3} {}'.format(p1_card[0]+p1_card[1], p2_card[0]+p2_card[1], 'P1'))
             p1_wins+=1
         elif p1_code<p2_code:
-            print('{}{:2} {}{} {}'.format(p1_card[0], p1_card[1], p2_card[0], p2_card[1],'P2'))
+            print('{:>3} {:>3} {}'.format(p1_card[0]+p1_card[1], p2_card[0]+p2_card[1], 'P2'))
             p2_wins+=1
         else:
-            print('{}{:2} {}{} {}'.format(p1_card[0],p1_card[1],p2_card[0],p2_card[1],'WAR!'))
+            print('{:>3} {:>3} {}'.format(p1_card[0]+p1_card[1], p2_card[0]+p2_card[1],'WAR!'))
     if p1_wins>p2_wins:
         print('P1 {} P2 {}: Player 1 wins'.format(p1_wins,p2_wins))
     elif p1_wins<p2_wins:
