@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../10-blackjack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10-blackjack/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10-war/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10-war/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10-war/war.py" beforeDir="false" afterPath="$PROJECT_DIR$/../10-war/war.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dates.py" beforeDir="false" afterPath="$PROJECT_DIR$/dates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../11-tictactoe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../11-tictactoe/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/12-regular-expressions/.ipynb_checkpoints/re-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/.ipynb_checkpoints/re-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lectures/12-regular-expressions/re.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/12-regular-expressions/re.ipynb" afterDir="false" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#97#106#0" expanded="true" />
               </folding>
@@ -102,7 +103,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -126,8 +126,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#97#106#0" expanded="true" />
           </folding>

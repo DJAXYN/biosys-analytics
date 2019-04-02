@@ -58,8 +58,8 @@ def main():
     deck_codes = {'2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,
               'J': 11, 'Q': 12, 'K': 13, 'A': 14}
 
-    cards=sorted(product(suits,deck))
-    #print(cards)
+    cards=sorted(list(product(suits,deck)))
+    print(cards)
 
     if seed is not None:
         random.seed(seed)

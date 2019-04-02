@@ -1,3 +1,10 @@
+tic-tac-toe grad assignment. Need to check if state is exactly 9 characters and contains {xo.}
+Ken's code takes beginning state and says change the . to O
+randomly throws in characters
+
+
+
+
 # 11 Python Graduate - Tic-Tac-Toe Outcome
 
 Create a Python program that takes a given Tic-Tac-Toe state as it's only (positional) argument and reports if X or O has won or if there is no winner. The state should only contain the characters ".", "O", and "X", and must be exactly 9 characters long. If there is not exactly one argument, print a "usage" statement.
