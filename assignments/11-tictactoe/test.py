@@ -56,11 +56,13 @@ def test_outcome():
         dots = [i for i in range(l) if state[i] == '.']
         mut = sample(dots, k=2)
         new_state = ''.join(['O' if i in mut else state[i] for i in range(l)])
+        print(new_state)
         out = getoutput('{} {}'.format(outcome, new_state))
         assert out.strip() == '{} has won'.format(player)
 
     losing_state = list('XXOO.....')
     for i in range(10):
         shuffle(losing_state)
+        print(losing_state)
         out = getoutput('{} {}'.format(outcome, ''.join(losing_state)))
         assert out.strip() == 'No winner'
