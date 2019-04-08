@@ -39,6 +39,7 @@ def test_reject():
     p1 = random_string()
     p2 = random_string()
     out = getoutput('{} "{}" "{}"'.format(prg, p1, p2))
+    print(p1,p2)
     assert out == 'nah'
 
 
