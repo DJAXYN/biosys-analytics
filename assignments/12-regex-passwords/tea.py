@@ -40,7 +40,7 @@ if teatime > 11:
     How?!
     Must be magic.  ''')
     time.sleep(teatime)
-    print('Your tea is ready')
+    print('\nYour tea is ready')
 
 if teatime <11:
     teatime = teatime*60

@@ -1,3 +1,6 @@
+# use set for the list
+
+
 # Find Unclustered Proteins
 
 Run `make data` to get the data you need for this exercise or manually download the data:
@@ -8,7 +11,7 @@ wget ftp://ftp.imicrobe.us/biosys-analytics/exercises/unclustered-proteins.tgz
 
 Unpack the tarball with `tar xvf unclustered-proteins.tgz`.
 
-Write a Python program called `find_unclustered.py` that will create a FASTA file of the unclustered proteins. The program will take a `-c|--cdhit` argument that is the name of the CD-HIT cluster file, a `-p|--proteins` FASTA file, and an `-o|--outfile` argument (default `unclustered.fa`) where to write the sequences. 
+Write a Python program called `find_unclustered.py` that will create a FASTA file of the unclustered proteins. The program will take a `-c|--cdhit` argument that is the name of the CD-HIT cluster file, a `-p|--proteins` FASTA file, and an `-o|--outfile` argument (default `unclustered.fa`) where to write the sequences.
 
 ````
 $ ./find_unclustered.py
@@ -49,7 +52,7 @@ Wrote 204,262 of 220,520 unclustered proteins to "unprots.fa"
 
 # Discussion
 
-The file `cdhit60.3+.clstr` contains all of the GI numbers for proteins that were clustered and put into HMM profiles. It is almost in FASTA format, but not quite. 
+The file `cdhit60.3+.clstr` contains all of the GI numbers for proteins that were clustered and put into HMM profiles. It is almost in FASTA format, but not quite.
 
 ````
 $ head -5 cdhit60.3+.clstr
