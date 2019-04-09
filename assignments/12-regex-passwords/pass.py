@@ -20,6 +20,7 @@ def main():
 
     password = args[0]
     alternative = args[1]
+    caps = password[0].upper()+password[1:]
 
     effup_check = re.compile('.?'
                              +password+
@@ -28,7 +29,7 @@ def main():
     if password == alternative or password.upper() == alternative:
         print('ok')
 
-    elif password.title() == alternative:
+    elif caps == alternative:
         print('ok')
 
     elif effup_check.match(alternative):
