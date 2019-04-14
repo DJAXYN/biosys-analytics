@@ -1,3 +1,8 @@
+Jason notes: use ZIP and list(ZIP(a,b))
+
+SUM(MAP(DIST,WORDS))
+
+
 # Hamming Distance
 
 The Hamming Distance is the number of edits you need to make in "string1" to change it to "string2," which here would be 1. It's named for Richard Hamming (https://en.wikipedia.org/wiki/Richard_Hamming) who was a brilliant mathmetician and early computer programmer. Along the way, we'll be solving http://rosalind.info/problems/hamm/.
@@ -62,7 +67,7 @@ $ ./hamm.py sample1.fa sample2.fa
 6
 ````
 
-Note in the last case that the inputs are sequences. 
+Note in the last case that the inputs are sequences.
 
 ````
 $ cat sample1.fa

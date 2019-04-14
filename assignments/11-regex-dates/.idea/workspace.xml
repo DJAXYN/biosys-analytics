@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f80074c-11e0-4697-a61a-07028691414c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../11-tictactoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11-tictactoe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-regex-passwords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-regex-passwords/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12-unclustered-proteins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-unclustered-proteins/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-hamm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="-9">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#97#106#0" expanded="true" />
@@ -47,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -59,6 +61,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -109,7 +112,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962447" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.44923505" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.19888735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32962447" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -120,7 +123,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="-9">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#97#106#0" expanded="true" />

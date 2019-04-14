@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8ac5fce-b6fa-4d08-97bd-454d336274d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample1.fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample1.fa.3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample1.fa.4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample1.fa.5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample2.fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample2.fa.3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample2.fa.4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample2.fa.5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample3.fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample3.fa.3.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample3.fa.4.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/sample3.fa.5.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../assignments/13-grph/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-python-intro/examples/argv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/cd-hit/cdhit_unclustered.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/19-functional-ideas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/examples/gematria7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/functional_ideas.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/functional_ideas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../19-functional-ideas/gettysburg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/fizz_buzz/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/fizz_buzz/fizz_buzz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/not_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/pig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/sleep_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/tea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/tea.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignments/11-regex-dates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignments/11-regex-dates/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignments/12-regex-passwords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignments/12-regex-passwords/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignments/12-unclustered-proteins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignments/12-unclustered-proteins/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assignments/13-hamm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../assignments/13-hamm/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08-python-patterns/python-common-patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/../08-python-patterns/python-common-patterns.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-python-pipelines.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/13-python-pipelines.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-pipelines.md" beforeDir="false" afterPath="$PROJECT_DIR$/python-pipelines.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="811" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="13-python-pipelines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="13-python-pipelines" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ac5fce-b6fa-4d08-97bd-454d336274d3" name="Default Changelist" comment="" />
+      <created>1555002393083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555002393083</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>
