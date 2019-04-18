@@ -2,195 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c494ec04-4579-497f-ad51-e3163ab1a41a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/13-grph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample1.fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample1.fa.3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample1.fa.4.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample1.fa.5.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample2.fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample2.fa.3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample2.fa.4.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample2.fa.5.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample3.fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample3.fa.3.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample3.fa.4.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample3.fa.5.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/13-hamm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../13-hamm/fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bin/find_unclustered.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bin/grph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/05-python-intro/examples/argv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/13-python-pipelines.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/ChangeLog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/FET.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-2d-para.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-454" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/bioSequence.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/bioSequence.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cd-hit-dup-PE-out.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cdhit-dup.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/cdhit-lap.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minArray.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minBase.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minMap.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minMap.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minString.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minString.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/mintlib/minUtility.hxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-auxtools/read-linker.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-clstr_2_blm8.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-div" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-div.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-est" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-est-2d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cd-hit-para.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-2d.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-2d.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-454.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-454.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-common.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-common.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-common.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-div.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-div.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-est-2d.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-est-2d.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-est.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-est.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-utility.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-utility.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit-utility.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit.c++" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/cdhit.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr2tree.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr2txt.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr2xml.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_cut.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_list.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_list_sort.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_merge.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_merge_noorder.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_quality_eval.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_quality_eval_by_link.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_reduce.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_renumber.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_rep.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_reps_faa_rev.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_rev.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_select.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_select_rep.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_size_histogram.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_size_stat.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_sort_by.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_sort_prot_by.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_sql_tbl.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/clstr_sql_tbl_sort.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/Figure1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/Figure2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/Figure3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/Figure4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/cd-hit-otu-miseq-Figure-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/cdhit-user-guide.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/cdhit-user-guide.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/cdhit-user-guide.wiki" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/doc/dokuwiki2latex.dao" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/make_multi_seq.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/plot_2d.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/plot_len1.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/README.psi-cd-hit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/cd-hit-div.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/clstr_select_rep.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/clstr_select_seq.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/fetch_fasta_by_ids.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/fetch_fasta_exclude_ids.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/psi-2d.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/psi-cd-hit-local-old.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/psi-cd-hit-local.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/psi-cd-hit-old.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/psi-cd-hit.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/psi-cd-hit/qsub-template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/16S-ref-db-PE-splice.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/NG-Omics-Miseq-16S.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/NG-Omics-Miseq-16S.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/NG-Omics-WF.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/NG-Omics-WF.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/cd-hit-otu-miseq-PE.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/clstr_2_OTU_table.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/filter-chimeric-and-small.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/filter-chimeric-by-ref.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/filter-nontop-ref.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/filter-refonly-cluster.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/greengene-ann1.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/pool_samples.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/Miseq-16S/silva-ana1.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/miRNA-seq/NG-Omics-miRNA-seq.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/miRNA-seq/clstr_2_miRNA-table.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/cd-hit-v4.8.1-2019-0228/usecases/miRNA-seq/filter-small-cluster.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/examples/cd-hit/cdhit_unclustered.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/19-functional-ideas.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/examples/gematria7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/functional_ideas.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/functional_ideas.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lectures/19-functional-ideas/gettysburg.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/fizz_buzz/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/fizz_buzz/fizz_buzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/not_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/not_string/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/pig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/pig_latin/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/sleep_in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/sleep_in/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/tea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../warmups/tea_timer/tea.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11-regex-dates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11-regex-dates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12-regex-passwords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-regex-passwords/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../12-unclustered-proteins/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12-unclustered-proteins/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13-hamm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/08-python-patterns/python-common-patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/08-python-patterns/python-common-patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/13-python-pipelines/13-python-pipelines.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/13-python-pipelines.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lectures/13-python-pipelines/python-pipelines.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../lectures/13-python-pipelines/python-pipelines.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grph.py" beforeDir="false" afterPath="$PROJECT_DIR$/grph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-hamm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-hamm/hamm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/hamm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-hamm/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+            <state relative-caret-position="260">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -212,7 +28,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-543" />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>k</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -235,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,7 +75,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -277,9 +105,10 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="811" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Pylint" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -288,7 +117,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32962447" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -297,10 +126,15 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+        <state relative-caret-position="260">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
