@@ -1,4 +1,4 @@
-Jason notes: use ZIP and list(ZIP(a,b))
+`Jason notes: use ZIP and list(ZIP(a,b))
 
 SUM(MAP(DIST,WORDS))
 

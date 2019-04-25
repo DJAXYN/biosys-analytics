@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c494ec04-4579-497f-ad51-e3163ab1a41a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1605b786-e941-4e40-be67-c78f14bdf1c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../11-tictactoe/Untitled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../13-hamm/.idea/BlackPycharmConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/14-open.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/max_rep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-open/weekdate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bin/hamm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bin/max_rep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bin/weekdate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-grph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-grph/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../13-hamm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-hamm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../13-hamm/hamm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/hamm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../13-hamm/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../13-hamm/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14-word-freak/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../14-word-freak/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grph.py">
+        <entry file="file://$PROJECT_DIR$/freak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+            <state relative-caret-position="83">
+              <caret line="73" column="66" lean-forward="true" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -28,17 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>k</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -46,7 +51,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grph.py" />
+        <option value="$PROJECT_DIR$/freak.py" />
       </list>
     </option>
   </component>
@@ -61,18 +66,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="13-grph" type="b2602c69:ProjectViewProjectNode" />
-              <item name="13-grph" type="462c0819:PsiDirectoryNode" />
+              <item name="14-word-freak" type="b2602c69:ProjectViewProjectNode" />
+              <item name="14-word-freak" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -92,11 +97,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c494ec04-4579-497f-ad51-e3163ab1a41a" name="Default Changelist" comment="" />
-      <created>1555272476524</created>
+      <changelist id="1605b786-e941-4e40-be67-c78f14bdf1c0" name="Default Changelist" comment="" />
+      <created>1556049248833</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555272476524</updated>
+      <updated>1556049248833</updated>
     </task>
     <servers />
   </component>
@@ -113,29 +118,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32962447" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Pylint" order="11" />
+      <window_info anchor="bottom" id="Pylint" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45201668" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grph.py">
+    <entry file="file://$PROJECT_DIR$/freak.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        <state relative-caret-position="83">
+          <caret line="73" column="66" lean-forward="true" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

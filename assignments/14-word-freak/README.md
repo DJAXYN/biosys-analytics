@@ -1,4 +1,6 @@
-# Word Frequencies 
+FOR COMMON WORDS HW15 KEN USED PRODUCT FOR THE COMPARISON
+
+# Word Frequencies
 
 Write a Python program named `freak.py` that takes one or more positional arguments of file names and counts the number of times each word occurs in the text. You will need to remove any non-letters from each word (e.g., punctuation so that "foo," becomes "foo") and count irrespective of case (so "foo," "Foo," and "FOO" are all the same word). Your program should also accept `-s|--sort` option that allows the user to choose the output to be sorted by "word" (alphabetically, this is the default) or "frequency" (numerically in ascending order) as well as a `-m|--min` option that is an integer value indicating the minimum number of times a word must occur to be included in the output (default 0).
 
