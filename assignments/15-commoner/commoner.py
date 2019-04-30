@@ -15,9 +15,6 @@ import re
 from itertools import product
 
 
-
-
-
 # --------------------------------------------------
 def get_args():
     """get command-line arguments"""
@@ -75,17 +72,19 @@ def die(msg='Something bad happened'):
     warn(msg)
     sys.exit(1)
 
+
 # --------------------------------------------------
-#hamming distance between two list of words
+# hamming distance between two list of words
 def dist(s1, s2):
-    d = abs((len(s1))-len(s2))
+    d = abs((len(s1)) - len(s2))
     dif = 0
-    for a,b in zip(s1,s2):
-        if a!=b:
+    for a, b in zip(s1, s2):
+        if a != b:
             dif += 1
         logging.debug("s1 = {}, s2 = {}, d = {}".format(a, b, dif))
-    tot = d+dif
+    tot = d + dif
     return tot
+
 
 # --------------------------------------------------
 def test_dist():
@@ -113,10 +112,9 @@ def uniq_words(file, min_len):
     '''
     for word in file.read().split():
         matcher = re.sub('[^a-zA-Z0-9]', '', word.lower())
-        if len(matcher)>=min_len:
+        if len(matcher) >= min_len:
             wordset.add(matcher)
     return wordset
-
 
 
 def test_uniq_words():
@@ -139,12 +137,14 @@ def test_uniq_words():
 # --------------------------------------------------
 def common(words1, words2, distance):
     commonlist = list()
-    wordprod = sorted(product(words1,words2))
-    for w1,w2 in wordprod:
+    wordprod = sorted(product(words1, words2))
+    for w1, w2 in wordprod:
         td = dist(w1, w2)
         if td <= distance:
-            commonlist.append((w1,w2,td))
+            commonlist.append((w1, w2, td))
     return commonlist
+
+
 # --------------------------------------------------
 
 def test_common():
@@ -159,51 +159,42 @@ def test_common():
                                  ('bar', 'faa', 2), ('foo', 'faa', 2)]
 
 
-
 # --------------------------------------------------
 def main():
     """Make a jazz noise here"""
     args = get_args()
-    fh1,fh2 = args.files
+    fh1, fh2 = args.files
     min_word_compare = args.min_len
     hamming = args.hamming_distance
     log_file = args.logfile
     debug = args.debug
     tableau = args.table
 
-
     logging.basicConfig(
         filename=log_file,
         filemode="w",
         level=logging.DEBUG if args.debug else logging.CRITICAL, )
 
-    logging.debug('file1 = {}, files2 = {}'.format(fh1,fh2))
+    logging.debug('file1 = {}, files2 = {}'.format(fh1, fh2))
 
     if hamming < 0:
         die('--distance "{}" must be > 0'.format(hamming))
 
-    #read.split
+    # read.split
 
     words1 = uniq_words(fh1, min_word_compare)
     words2 = uniq_words(fh2, min_word_compare)
     common_words = common(words1, words2, hamming)
 
-    if len(common_words)<1:
-        die('No words in common')
+    if len(common_words) < 1:
+        print('No words in common.')
     else:
         if tableau:
-            print(tabulate(common_words,headers=['word1','word2','distance'],tablefmt='psql'))
+            print(tabulate(common_words, headers=['word1', 'word2', 'distance'], tablefmt='psql'))
         else:
             print('word1\tword2\tdistance')
-            for w1,w2,dis in common_words:
+            for w1, w2, dis in common_words:
                 print(f'{w1}\t{w2}\t{dis}')
-
-
-
-
-
-
-
 
 
 # --------------------------------------------------
