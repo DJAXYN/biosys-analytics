@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f773cb8-ff3e-4c9f-80c9-bfdb97d4cbf7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/grad/au_pair/au_pair.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/grad/averager/averager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/grad/piggie/piggie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/undergrad/histogram/histy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/undergrad/piggie/piggie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../finals/undergrad/upgoer/upgoer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bin/new_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../bin/new_py.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commoner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state>
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -47,6 +53,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -58,7 +65,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -112,8 +118,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/commoner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state>
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
