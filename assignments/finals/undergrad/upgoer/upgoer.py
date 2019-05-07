@@ -48,12 +48,15 @@ def die(msg='Something bad happened'):
 
 
 # --------------------------------------------------
+def word_ls_maker(file):
+    ls = []
+    for line in file:
+        for word in line.split():
+            matcher = re.sub("[^a-zA-Z0-9']", '', word.lower())
+            if matcher:
+                ls.append(matcher)
 
-
-
-
-
-
+    return ls
 # --------------------------------------------------
 def main():
     """Make a jazz noise here"""
@@ -68,17 +71,8 @@ def main():
     dictionar_fh = open(word_lsfile,'rt')
     compare_fh = open(compare_file,'rt')
 
-    topword_list = []
-    for line in dictionar_fh:
-        for word in line.split():
-            topword_list.append(word)
-
-    compare_fh_ls = []
-    for line in compare_fh:
-        for word in line.split():
-            matcher = re.sub("[^a-zA-Z0-9']", '', word.lower())
-            if matcher:
-                compare_fh_ls.append(matcher)
+    topword_list = word_ls_maker(dictionar_fh)
+    compare_fh_ls = word_ls_maker(compare_fh)
 
     i = 0
     for word in compare_fh_ls:

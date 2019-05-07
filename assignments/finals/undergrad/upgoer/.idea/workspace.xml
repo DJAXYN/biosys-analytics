@@ -4,6 +4,7 @@
     <list default="true" id="06afe933-61c5-41ef-8e2d-75c3f06a644d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../14-word-freak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../14-word-freak/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../15-commoner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../15-commoner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upgoer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/upgoer2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upgoer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="176">
               <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/upgoer2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="517">
+              <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
               <folding>
                 <element signature="e#97#112#0" expanded="true" />
               </folding>
@@ -125,20 +126,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/upgoer2.py">
+    <entry file="file://$PROJECT_DIR$/upgoer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="176">
+          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/upgoer.py">
+    <entry file="file://$PROJECT_DIR$/upgoer2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="517">
+          <caret line="84" column="21" lean-forward="true" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
           <folding>
             <element signature="e#97#112#0" expanded="true" />
           </folding>
